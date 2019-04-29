@@ -10,7 +10,7 @@ module.exports = {
     publicPath: '/'
   },
   plugins: [
-    new clean(['dist']),
+    new clean(),
     new html({
       filename: path.resolve(__dirname, 'dist/index.html'),
       template: 'index.html'
